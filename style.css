@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.tetris{
+    width: 500px;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+.excel{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cccccc;
+}
+
+.figure, .set{
+    background-color: blue;
+}
+
+input{
+    display: block;
+    margin: 30px auto;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.controls{
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
